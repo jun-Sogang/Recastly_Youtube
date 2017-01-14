@@ -45,16 +45,26 @@ body {
   margin-top: 10px;
 }
 
+.box {
+  display: flex;
+  flex-direction: row;
+}
 .video-list {
   background: #fff;
   padding: 8px;
   border: 0;
   box-shadow: 0 1px 2px rgba(0,0,0,.1);
+  flex-direction: column;
+}
+
+.media-body {
+  margin-left: 10px;
 }
 
 .video-list-entry {
   font-size: 16px;
   padding: 8px;
+  display: flex;
 }
 
 .video-list-entry-title {
